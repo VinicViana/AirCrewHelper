@@ -9,12 +9,12 @@ namespace AirCrewHelper_Model.Entities
     public class AirPlane
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        public string Name { get; set; }
 
         public AirPlane()
         {
             Id = 0;
-            Nome = string.Empty;
+            Name = string.Empty;
         }
     }
 }
