@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirCrewHelper_Model", "AirCrewHelper_Model\AirCrewHelper_Model.csproj", "{F1027C12-E156-4BB5-80C4-4F0F61372D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirCrewHelper_Model", "AirCrewHelper_Model\AirCrewHelper_Model.csproj", "{F1027C12-E156-4BB5-80C4-4F0F61372D9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirCrewHelper_ManagerView", "AirCrewHelper_View\AirCrewHelper_ManagerView.csproj", "{9731DA1D-066B-4EA7-9A11-2CA7AD2E1355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F1027C12-E156-4BB5-80C4-4F0F61372D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1027C12-E156-4BB5-80C4-4F0F61372D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1027C12-E156-4BB5-80C4-4F0F61372D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9731DA1D-066B-4EA7-9A11-2CA7AD2E1355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9731DA1D-066B-4EA7-9A11-2CA7AD2E1355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9731DA1D-066B-4EA7-9A11-2CA7AD2E1355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9731DA1D-066B-4EA7-9A11-2CA7AD2E1355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
