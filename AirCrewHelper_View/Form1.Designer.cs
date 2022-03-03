@@ -83,6 +83,7 @@ namespace AirCrewHelper_View
             this.pilotToolStripMenuItem.Name = "pilotToolStripMenuItem";
             this.pilotToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pilotToolStripMenuItem.Text = "Pilots";
+            this.pilotToolStripMenuItem.Click += new System.EventHandler(this.pilotToolStripMenuItem_Click);
             // 
             // airCrewToolStripMenuItem
             // 

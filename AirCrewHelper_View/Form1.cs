@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AirCrewHelper_ManagerView;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +26,12 @@ namespace AirCrewHelper_View
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void pilotToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PilotUI pilotUI = new PilotUI();
+            pilotUI.Show();
         }
     }
 }
