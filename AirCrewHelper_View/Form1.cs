@@ -33,5 +33,11 @@ namespace AirCrewHelper_View
             PilotUI pilotUI = new PilotUI();
             pilotUI.Show();
         }
+
+        private void airplaneToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AirPlaneUI airPlaneUI = new AirPlaneUI();
+            airPlaneUI.Show();
+        }
     }
 }

@@ -96,6 +96,7 @@ namespace AirCrewHelper_View
             this.airplaneToolStripMenuItem.Name = "airplaneToolStripMenuItem";
             this.airplaneToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.airplaneToolStripMenuItem.Text = "Airplanes";
+            this.airplaneToolStripMenuItem.Click += new System.EventHandler(this.airplaneToolStripMenuItem_Click);
             // 
             // procedureToolStripMenuItem
             // 
